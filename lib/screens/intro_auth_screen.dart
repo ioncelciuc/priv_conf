@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:introduction_screen/introduction_screen.dart';
+import 'package:zoom_clone/authentication/navigate_auth_screen.dart';
 import 'package:zoom_clone/variables.dart';
 
 class IntroAuthScreen extends StatefulWidget {
@@ -57,7 +58,12 @@ class _IntroAuthScreenState extends State<IntroAuthScreen> {
         ),
       ],
       onDone: () {
-        print('done');
+        Navigator.push(
+          context,
+          MaterialPageRoute(
+            builder: (context) => NavigateAuthScreen(),
+          ),
+        );
       },
       onSkip: () {
         print('skip');
