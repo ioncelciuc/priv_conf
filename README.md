@@ -1,2 +1,2 @@
 # zoom_clone
- A zoom clone in Flutter
+ A private video conferencing app
