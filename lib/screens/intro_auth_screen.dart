@@ -65,9 +65,9 @@ class _IntroAuthScreenState extends State<IntroAuthScreen> {
           ),
         );
       },
-      onSkip: () {
-        print('skip');
-      },
+      // onSkip: () {
+        
+      // },
       showSkipButton: true,
       skip: const Icon(Icons.skip_next, size: 45),
       next: const Icon(Icons.arrow_forward_ios),

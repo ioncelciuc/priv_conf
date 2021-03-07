@@ -1,7 +1,6 @@
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_gradient_colors/flutter_gradient_colors.dart';
-import 'package:zoom_clone/screens/home_page.dart';
 import 'package:zoom_clone/variables.dart';
 
 class RegisterScreen extends StatefulWidget {
@@ -51,7 +50,7 @@ class _RegisterScreenState extends State<RegisterScreen>
             width: MediaQuery.of(context).size.width,
             height: MediaQuery.of(context).size.height / 2,
             decoration: BoxDecoration(
-              gradient: LinearGradient(colors: GradientColors.blue),
+              gradient: LinearGradient(colors: GradientColors.facebookMessenger),
             ),
             child: Center(
               child: Image.asset(
@@ -155,7 +154,7 @@ class _RegisterScreenState extends State<RegisterScreen>
                         height: 60,
                         decoration: BoxDecoration(
                           gradient: LinearGradient(
-                            colors: GradientColors.blue,
+                            colors: GradientColors.facebookMessenger,
                           ),
                           borderRadius: BorderRadius.circular(20),
                         ),

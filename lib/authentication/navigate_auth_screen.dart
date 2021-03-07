@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_custom_clippers/flutter_custom_clippers.dart';
 import 'package:flutter_gradient_colors/flutter_gradient_colors.dart';
 import 'package:zoom_clone/authentication/log_in_screen.dart';
 import 'package:zoom_clone/authentication/register_screen.dart';
@@ -49,7 +48,7 @@ class _NavigateAuthScreenState extends State<NavigateAuthScreen>
             width: MediaQuery.of(context).size.width,
             height: MediaQuery.of(context).size.height / 2,
             decoration: BoxDecoration(
-              gradient: LinearGradient(colors: GradientColors.blue),
+              gradient: LinearGradient(colors: GradientColors.facebookMessenger),
             ),
             child: Center(
               child: Image.asset(
@@ -97,7 +96,7 @@ class _NavigateAuthScreenState extends State<NavigateAuthScreen>
                         height: 60,
                         decoration: BoxDecoration(
                           gradient: LinearGradient(
-                            colors: GradientColors.blue,
+                            colors: GradientColors.facebookMessenger,
                           ),
                           borderRadius: BorderRadius.circular(20),
                         ),
@@ -124,7 +123,7 @@ class _NavigateAuthScreenState extends State<NavigateAuthScreen>
                         height: 60,
                         decoration: BoxDecoration(
                           gradient: LinearGradient(
-                            colors: GradientColors.blue,
+                            colors: GradientColors.facebookMessenger,
                           ),
                           borderRadius: BorderRadius.circular(20),
                         ),
